@@ -1,0 +1,21 @@
+# Python caches & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Local media outputs & temporary uploads
+outputs/*.mp4
+outputs/*.avi
+outputs/*.jpeg
+outputs/*.jpg
+outputs/*.png
+samples/*.mp4
+
+# OS & IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
