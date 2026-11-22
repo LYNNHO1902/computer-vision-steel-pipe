@@ -1,0 +1,11 @@
+services:
+  pipe-vision-api:
+    build: .
+    container_name: pipe_inspection_engine
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./outputs:/app/outputs
+    environment:
+      - MODEL_PATH=models/best.onnx
+    restart: unless-stopped
